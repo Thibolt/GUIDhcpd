@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-04-03 19:56:08
+/* Smarty version 3.1.29, created on 2016-04-04 17:48:34
   from "/var/www/html/GUIDhcpd/templates/index.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_57015938cc2e27_86498743',
+  'unifunc' => 'content_57028cd26ee839_79886360',
   'file_dependency' => 
   array (
     '239fb77bad2f828d2b924438fa8fcc052a537f17' => 
     array (
       0 => '/var/www/html/GUIDhcpd/templates/index.tpl',
-      1 => 1459701113,
+      1 => 1459784638,
       2 => 'file',
     ),
     '56d77615b16e54f30e0efe32b36c77a67d029b43' => 
@@ -35,7 +35,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   ),
   'cache_lifetime' => 120,
 ),true)) {
-function content_57015938cc2e27_86498743 ($_smarty_tpl) {
+function content_57028cd26ee839_79886360 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -101,7 +101,7 @@ function content_57015938cc2e27_86498743 ($_smarty_tpl) {
 <div class="container">
     <div class="panel panel-success">
         <div class="panel-heading">
-            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> 
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Le service dhcpd est hors service
         </div>
     </div>
     <div class="panel panel-default">

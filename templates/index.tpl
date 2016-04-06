@@ -2,7 +2,12 @@
 {include file='navbar.tpl'}
 <!-- Begin page content -->
 <div class="container">
-    <div class="panel panel-success">
+
+    {if $serviceStatus != '* apache2 is running'}
+    <div class="panel panel-danger">
+    {else}
+        <div class="panel panel-success">
+    {/if}
         <div class="panel-heading">
             <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> {$serviceStatus}
         </div>
